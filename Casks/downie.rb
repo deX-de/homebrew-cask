@@ -1,14 +1,6 @@
 cask "downie" do
-<<<<<<< HEAD
-  version "4.6.10,4528"
-  sha256 "1599c5a835c0664bd8fe4aebfe964ea5391c689c77cd33a6d9a13928eb38e459"
-||||||| parent of 28a44313be (downie)
-  version "4.6.7,4516"
-  sha256 "e426b8ce51280bdd39ed764e45bc12d5f4a992fa693a9beca333494b7ef3cbcd"
-=======
-  version "4.6.11,4533"
-  sha256 "752d17a5185d8770289a3548dc77b0d3b0f4c8e6afbd6108871c542e04a75933"
->>>>>>> 28a44313be (downie)
+  version "4.6,4463"
+  sha256 "5d74ca530f4a8dcc636139d8f1a75243e52c949e942bfc3518842394175d2fd7"
 
   url "https://software.charliemonroe.net/trial/downie/v#{version.major}/Downie_#{version.major}_#{version.csv.second}.dmg"
   name "Downie"
@@ -21,7 +13,7 @@ cask "downie" do
   end
 
   auto_updates true
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">= :sierra"
 
   app "Downie #{version.major}.app"
 
